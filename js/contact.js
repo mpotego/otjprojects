@@ -1,8 +1,17 @@
 $(document).ready(function(){
     
+	
     (function($) {
         "use strict";
-
+ 
+	$('#Phone1').text('+27 83 ');
+	$('#Phone2').text('977 ');
+	$('#Phone3').text('1618');
+	
+	$('#Email1').text('info');
+	$('#Email2').text('@otjprojects');
+	$('#Email3').text('.com');
+	 
     
     jQuery.validator.addMethod('answercheck', function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value)
